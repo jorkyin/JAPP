@@ -1,2 +1,2 @@
-include ':app', ':jphotolibrary'
+include ':app', ':jphotolibrary', ':rtconstraintlibrary'
 rootProject.name='JAPP'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RT_TitleMenu_View">
+        <attr name="left_image_src" format="reference|integer"/>
+        <attr name="left_text" format="string"/>
+        <attr name="title_text" format="string"/>
+        <attr name="right_text" format="string"/>
+        <attr name="right_image_src" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="RT_ImageText_View">
+        <attr name="image_src" format="reference|integer"/>
+        <attr name="image_text" format="string"/>
+    </declare-styleable>
+</resources>

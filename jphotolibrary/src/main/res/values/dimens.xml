@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="sectioned_alignBottom">6dp</dimen>
+    <dimen name="sectioned_top">27dp</dimen>
+
+    <!--自定义属性的名称，额。。可以理解成类名 如：class user-->
+    <declare-styleable name="ScaleImageView">
+        <!--name：属性名称  format：属性类型，额。。可以理解用类的成员 如：String name-->
+        <attr name="heightScale" format="float" />
+        <attr name="widthScale" format="float" />
+    </declare-styleable>
+</resources>
