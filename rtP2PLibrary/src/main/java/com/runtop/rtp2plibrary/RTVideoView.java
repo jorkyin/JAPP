@@ -6,8 +6,6 @@ import android.graphics.Color;
 import android.graphics.SurfaceTexture;
 import android.media.AudioTrack;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,6 +14,9 @@ import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.runtop.rtp2plibrary.model.RTNativeCallBack;
 import com.runtop.rtp2plibrary.model.RTNativeCaller;
